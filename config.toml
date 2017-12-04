@@ -13,7 +13,7 @@ canonifyurls = true
 
 [params]
   description = ""
-  cover = "images/cover.jpg"
+  cover = "u_blog/images/cover.jpg"
   author = "Anala Gossai"
   authorlocation = "New York, NY"
   authorwebsite = "https://anala-gossai.github.io/u_blog/"
