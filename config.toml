@@ -1,6 +1,6 @@
 baseURL = "https://anala-gossai.github.io/u_blog/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Blog by Anala Gossai"
 theme = "casper"
 publishDir = "docs"
 paginate = 5
