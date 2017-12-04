@@ -11,8 +11,8 @@ tags = []
 title = "Contact"
 +++
 
-Please do e-mail me at <anala.gossai@gmail.com>.
+Please e-mail me at <anala.gossai@gmail.com>.
 
-I am also present on [linkedin][].
+I am also present on [LinkedIn][].
 
-[linkedin]: https://www.linkedin.com/in/analagossai
+[LinkedIn]: https://www.linkedin.com/in/analagossai
