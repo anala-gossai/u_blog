@@ -3,3 +3,35 @@ languageCode = "en-us"
 title = "My New Hugo Site"
 theme = "casper"
 publishDir = "docs"
+paginate = 5
+DisqusShortname = "agossai"
+Copyright = "© 2018"
+canonifyurls = true
+
+[permalinks]
+  post = "/:slug/"
+
+ [params]
+  description = ""
+  cover = "images/cover.jpg"
+  author = "Anala Gossai"
+  authorlocation = "New York, NY"
+  authorwebsite = "https://anala-gossai.github.io/u_blog/"
+  bio= "Quantitative Biomedical Scientist / New York"
+  logo = "images/logo.gif"
+  githubName = "anala-gossai"
+  linkedinName = "analagossai"
+  hideHUGOSupport = false
+
+[[menu.main]]
+  name = "Home"
+  weight = -100
+  identifier = "home"
+  url = "/"
+
+ [[menu.main]]
+  name = "Contact"
+  weight = 0
+  identifier = "contact"
+  pre = "<br />"
+  url = "/contact"
