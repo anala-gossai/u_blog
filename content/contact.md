@@ -15,4 +15,4 @@ Please do e-mail me at <anala.gossai@gmail.com>.
 
 I'm also present on [linkedin][].
 
-[linkedin]: linkedin.in/analagossai
+[linkedin]: linkedin.com/in/analagossai
