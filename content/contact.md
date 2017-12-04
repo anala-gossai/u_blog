@@ -13,6 +13,6 @@ title = "Contact"
 
 Please do e-mail me at <anala.gossai@gmail.com>.
 
-I'm also present on [linkedin][].
+I am also present on [linkedin][].
 
-[linkedin]: linkedin.com/in/analagossai
+[linkedin]: www.linkedin.com/in/analagossai
