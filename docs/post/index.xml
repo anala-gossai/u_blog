@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blog by Anala Gossai</title>
-    <link>https://anala-gossai.github.io/u_blog/</link>
-    <description>Recent content on Blog by Anala Gossai</description>
+    <title>Posts on Blog by Anala Gossai</title>
+    <link>https://anala-gossai.github.io/u_blog/post/</link>
+    <description>Recent content in Posts on Blog by Anala Gossai</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2018</copyright>
     <lastBuildDate>Sun, 03 Dec 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://anala-gossai.github.io/u_blog/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://anala-gossai.github.io/u_blog/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -19,16 +19,6 @@
       
       <guid>https://anala-gossai.github.io/u_blog/my-first-post/</guid>
       <description>First blog sentence</description>
-    </item>
-    
-    <item>
-      <title>Contact</title>
-      <link>https://anala-gossai.github.io/u_blog/contact/</link>
-      <pubDate>Sat, 02 Dec 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://anala-gossai.github.io/u_blog/contact/</guid>
-      <description>Please do e-mail me at anala.gossai@gmail.com.
-I am also present on linkedin.</description>
     </item>
     
   </channel>
