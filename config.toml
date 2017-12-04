@@ -29,9 +29,11 @@ canonifyurls = true
   identifier = "home"
   url = "/"
 
- [[menu.main]]
+[[menu.main]]
   name = "Contact"
   weight = 0
   identifier = "contact"
   pre = "<br />"
   url = "/contact"
+
+
