@@ -41,7 +41,7 @@
     <title>On starting a blog &middot; Classic thoughts from Anala</title>
 
     
-    <meta name="description" content="I spent a weekend building this static website that could host simple markdown documents or HTML outputs. I am generally more interested in ensuring something i" />
+    <meta name="description" content="I spent a weekend building this static website that could host simple markdown documents or HTML outputs. Although I have some familiarity with using Jekyll as " />
     
 
     <meta name="HandheldFriendly" content="True" />
@@ -104,8 +104,8 @@
     },
     "headline": On starting a blog,
     "name": On starting a blog,
-    "wordCount": 32,
-    "timeRequired": "PT1M",
+    "wordCount": 280,
+    "timeRequired": "PT2M",
     "inLanguage": {
       "@type": "Language",
       "alternateName": en
@@ -210,7 +210,25 @@
     </header>
 
     <section class="post-content">
-      <p>I spent a weekend building this static website that could host simple markdown documents or HTML outputs. I am generally more interested in ensuring something is executable than maintaining the resulting product.</p>
+      <p>I spent a weekend building this static website that could host simple markdown documents or HTML outputs. Although I have some familiarity with using <a href="https://github.com/jekyll/jekyll">Jekyll</a> as a static site generator with GitHub Pages, I preferred the default aesthetics of <a href="https://gohugo.io/about/">Hugo</a> with the <a href="https://github.com/vjeantet/hugo-theme-casper">Casper theme</a>.</p>
+
+<p>Thus, I started following the <a href="http://gohugo.io/getting-started/quick-start/">Quick Start</a> guide for building and deploying Hugo as a GitHub Pages website. I did, however, make the following adjustments as I proceeded through the guides and help pages:</p>
+
+<ul>
+<li>I called my new blog directory <code>u_blog</code> rather than <code>quickstart</code> when running <code>hugo new site quickstart</code><br /></li>
+<li>Rather than <code>git submodule add</code>-ing the Casper theme, I <code>git clone</code>-ed it as recommended by the <a href="https://github.com/vjeantet/hugo-theme-casper">Casper ReadMe</a><br /></li>
+<li>Of course, as the theme I chose was Casper, I updated the config file to have <code>echo 'theme = &quot;casper&quot;' &gt;&gt; config.toml</code><br /></li>
+<li>One edit that was not intuitive was to create the <code>post</code> folder as <code>hugo new post/my-first-post.md</code> rather than <code>post</code><strong><code>s</code></strong> as was instructed by the <a href="http://gohugo.io/getting-started/quick-start/">Quick Start</a> guide<br /></li>
+<li>As I intended to deploy the website via the <code>/docs</code> Folder on the Master Branch, I added <code>publishDir = &quot;docs&quot;</code> to the config file
+
+<ul>
+<li>I followed the <a href="http://gohugo.io/hosting-and-deployment/hosting-on-github/#deployment-via-docs-folder-on-master-branch">instructions</a> to modify the repository settings to allow GitHub to host the site<br /></li>
+<li>Note that I had to add a GitHub repository of the name <code>u_blog</code>, and then set the blog code as a new remote using <code>git remote add origin https://github.com ... .git</code> as instructed by <a href="https://help.github.com/articles/adding-a-remote/">GitHub Help</a><br /></li>
+</ul></li>
+<li>Unfortunately, debugging various relative URLs is still a work in progress<br /></li>
+</ul>
+
+<p>I am generally more interested in ensuring something is executable than maintaining the resulting product. However, I do like this blog format and hope to maintain this website as an entertaining forum!</p>
 
     </section>
 
