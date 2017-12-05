@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blog by Anala Gossai</title>
+    <title>Classic thoughts from Anala</title>
     <link>https://anala-gossai.github.io/u_blog/</link>
-    <description>Recent content on Blog by Anala Gossai</description>
+    <description>Recent content on Classic thoughts from Anala</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2018</copyright>
@@ -13,12 +13,12 @@
     
     
     <item>
-      <title>My First Post</title>
-      <link>https://anala-gossai.github.io/u_blog/my-first-post/</link>
+      <title>On starting a blog</title>
+      <link>https://anala-gossai.github.io/u_blog/on-starting-a-blog/</link>
       <pubDate>Sun, 03 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://anala-gossai.github.io/u_blog/my-first-post/</guid>
-      <description>First blog sentence</description>
+      <guid>https://anala-gossai.github.io/u_blog/on-starting-a-blog/</guid>
+      <description>I spent a weekend building this static website that could host simple markdown documents or HTML outputs. I am generally more interested in ensuring something is executable than maintaining the resulting product.</description>
     </item>
     
     <item>
