@@ -25,7 +25,7 @@ canonifyurls = true
 
 [[menu.main]]
   name = "Home"
-  weight = 100
+  weight = 150
   identifier = "home"
   url = "/"
 
@@ -36,8 +36,14 @@ canonifyurls = true
   url = "/contact"
 
 [[menu.main]]
-  name = "Posts"
+  name = "About"
   weight = 50
+  identifier = "about"
+  url = "/about"
+
+[[menu.main]]
+  name = "Posts"
+  weight = 100
   identifier = "post"
   url = "/post"
 
