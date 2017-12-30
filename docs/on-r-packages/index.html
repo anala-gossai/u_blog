@@ -12,15 +12,15 @@
 
 
 
-<meta name="twitter:title" content="On starting a blog"/>
+<meta name="twitter:title" content="On my favourite R packages"/>
 <meta name="twitter:description" content=""/>
 <meta name="twitter:site" content="@"/>
 
 
 
-  	<meta property="og:title" content="On starting a blog &middot; Classic thoughts from Anala" />
+  	<meta property="og:title" content="On my favourite R packages &middot; Classic thoughts from Anala" />
   	<meta property="og:site_name" content="Classic thoughts from Anala" />
-  	<meta property="og:url" content="https://anala-gossai.github.io/u_blog/on-starting-a-blog/" />
+  	<meta property="og:url" content="https://anala-gossai.github.io/u_blog/on-r-packages/" />
 
     
         
@@ -31,17 +31,17 @@
     
     <meta property="og:description" content="" />
   	<meta property="og:type" content="article" />
-    <meta property="article:published_time" content="2017-12-03T00:00:00Z" />
+    <meta property="article:published_time" content="2017-12-29T00:00:00Z" />
 
     
-    <meta property="article:tag" content="general" />
+    <meta property="article:tag" content="R" />
     
     
 
-    <title>On starting a blog &middot; Classic thoughts from Anala</title>
+    <title>On my favourite R packages &middot; Classic thoughts from Anala</title>
 
     
-    <meta name="description" content="I spent a weekend building this static website that could host simple markdown documents or HTML outputs. Although I have some familiarity with using Jekyll as " />
+    <meta name="description" content="R is the statistical programming language I have used for a number of years in school and work. One reason I have enjoyed using R (particularly over SAS, but co" />
     
 
     <meta name="HandheldFriendly" content="True" />
@@ -65,7 +65,7 @@
     
     <meta name="generator" content="Hugo 0.31.1" />
 
-    <link rel="canonical" href="https://anala-gossai.github.io/u_blog/on-starting-a-blog/" />
+    <link rel="canonical" href="https://anala-gossai.github.io/u_blog/on-r-packages/" />
 
     
       
@@ -102,23 +102,23 @@
             
         ]
     },
-    "headline": On starting a blog,
-    "name": On starting a blog,
-    "wordCount": 280,
+    "headline": On my favourite R packages,
+    "name": On my favourite R packages,
+    "wordCount": 375,
     "timeRequired": "PT2M",
     "inLanguage": {
       "@type": "Language",
       "alternateName": en
     },
-    "url": https://anala-gossai.github.io/u_blog/on-starting-a-blog/,
-    "datePublished": 2017-12-03T00:00Z,
-    "dateModified": 2017-12-03T00:00Z,
+    "url": https://anala-gossai.github.io/u_blog/on-r-packages/,
+    "datePublished": 2017-12-29T00:00Z,
+    "dateModified": 2017-12-29T00:00Z,
     
-    "keywords": general,
+    "keywords": R,
     "description": ,
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": https://anala-gossai.github.io/u_blog/on-starting-a-blog/
+        "@id": https://anala-gossai.github.io/u_blog/on-r-packages/
     }
 }
     </script>
@@ -199,41 +199,42 @@
   <article class="post post">
 
     <header class="post-header">
-        <h1 class="post-title">On starting a blog</h1>
+        <h1 class="post-title">On my favourite R packages</h1>
         <small></small>
 
         <section class="post-meta">
         
-          <time class="post-date" datetime="2017-12-03T00:00:00Z">
-            Dec 3, 2017
+          <time class="post-date" datetime="2017-12-29T00:00:00Z">
+            Dec 29, 2017
           </time>
         
          
-          <span class="post-tag small"><a href="https://anala-gossai.github.io/u_blog//tags/general/">#general</a></span>
+          <span class="post-tag small"><a href="https://anala-gossai.github.io/u_blog//tags/r/">#R</a></span>
          
         </section>
     </header>
 
     <section class="post-content">
-      <p>I spent a weekend building this static website that could host simple markdown documents or HTML outputs. Although I have some familiarity with using <a href="https://github.com/jekyll/jekyll">Jekyll</a> as a static site generator with GitHub Pages, I preferred the default aesthetics of <a href="https://gohugo.io/about/">Hugo</a> with the <a href="https://github.com/vjeantet/hugo-theme-casper">Casper theme</a>.</p>
+      <p><a href="https://www.r-project.org/">R</a> is the statistical programming language I have used for a number of years in school and work. One reason I have enjoyed using R (particularly over <a href="https://www.sas.com/en_us/home.html?keyword=sas&amp;matchtype=e&amp;publisher=google&amp;gclid=CjwKCAiA7JfSBRBrEiwA1DWSGxVjIDxgXEQ6XCT9k9cd5ijKL78eDy3UmO6hGM0gtndJoB9TNTpXJxoCZjYQAvD_BwE">SAS</a>, but comparably to <a href="https://www.python.org/">Python</a>) is the large number of <a href="https://cran.r-project.org/web/packages/available_packages_by_name.html">packages</a> available for download to enhance the scope of analyses.</p>
 
-<p>Thus, I started following the <a href="http://gohugo.io/getting-started/quick-start/">Quick Start</a> guide for building and deploying Hugo as a GitHub Pages website. I did, however, make the following adjustments as I proceeded through the guides and help pages:</p>
-
-<ul>
-<li>I called my new blog directory <code>u_blog</code> rather than <code>quickstart</code> when running <code>hugo new site quickstart</code><br /></li>
-<li>Rather than <code>git submodule add</code>-ing the Casper theme, I <code>git clone</code>-ed it as recommended by the <a href="https://github.com/vjeantet/hugo-theme-casper">Casper ReadMe</a><br /></li>
-<li>Of course, as the theme I chose was Casper, I updated the config file to have <code>echo 'theme = &quot;casper&quot;' &gt;&gt; config.toml</code><br /></li>
-<li>One edit that was not intuitive was to create the <code>post</code> folder as <code>hugo new post/my-first-post.md</code> rather than <code>post</code><strong><code>s</code></strong> as was instructed by the <a href="http://gohugo.io/getting-started/quick-start/">Quick Start</a> guide<br /></li>
-<li>As I intended to deploy the website via the <code>/docs</code> Folder on the Master Branch, I added <code>publishDir = &quot;docs&quot;</code> to the config file
+<p>There are a number of packages I always load when starting an analysis:</p>
 
 <ul>
-<li>I followed the <a href="http://gohugo.io/hosting-and-deployment/hosting-on-github/#deployment-via-docs-folder-on-master-branch">instructions</a> to modify the repository settings to allow GitHub to host the site<br /></li>
-<li>Note that I had to add a GitHub repository of the name <code>u_blog</code>, and then set the blog code as a new remote using <code>git remote add origin https://github.com ... .git</code> as instructed by <a href="https://help.github.com/articles/adding-a-remote/">GitHub Help</a><br /></li>
+<li>Everything in the <a href="https://www.tidyverse.org/"><code>tidyverse</code></a>: the <code>tidyverse</code> includes packages that simplify data manipulation, data cleaning, data summarisation, and graphical representation of data. It is almost a different language when compared to base R, but it is <strong>extremely</strong> worthwhile to learn and increases the readability of your code.
+
+<ul>
+<li>Included in the core <code>tidyverse</code> are the following packages: <code>readr</code> for data acquisition; <code>dplyr</code>, <code>tibble</code>, and <code>tidyr</code> for data manipulation and cleaning; <code>ggplot2</code> for plotting; and <code>purrr</code> to extend functional programming<br /></li>
 </ul></li>
-<li>Unfortunately, debugging various relative URLs is still a work in progress<br /></li>
+<li><a href="https://www.rdocumentation.org/packages/stringr/versions/1.1.0"><code>stringr</code></a>: helps simplify the hassle of cleaning and deriving insight from complex strings using wrapper functions as well as regular expressions. I prefer to use <code>stringr</code> over the <code>grep</code> or <code>gsub</code> functions in base R due to it&rsquo;s syntax.<br /></li>
+<li><a href="https://cran.r-project.org/web/packages/zoo/index.html"><code>zoo</code></a>: makes it easier to format and transform dates and times. I have found it useful when attempting to extract the quarter or year and month associated with a date.<br /></li>
+<li><a href="https://cran.r-project.org/web/packages/DBI/DBI.pdf"><code>DBI</code></a>: creates a connection with your database within the R environment. I frequently use the functions in this package to access my local <a href="https://www.postgresql.org/">PostgreSQL database</a>.<br /></li>
+<li><a href="http://rich-iannone.github.io/DiagrammeR/"><code>DiagrammeR</code></a>: creates beautiful flowcharts within R. I have primarily used package version <code>0.8.4</code> due to some issues with the backwards compatibility of the following versions.<br /></li>
+<li><a href="https://cran.r-project.org/web/packages/compareGroups/vignettes/compareGroups_vignette.html"><code>compareGroups</code></a>: allows you to compare the characteristics of one group to another group with some simple univariate statistics. I have frequently used this package in the analysis of population level data, where one group of people are compared to another group of people in the population by basic demographics, such as the proportion of males and the distribution of ages. This package also expands to unadjusted logistic and hazards regression models.<br /></li>
+<li><a href="https://cran.r-project.org/web/packages/corrplot/vignettes/corrplot-intro.html"><code>corrplot</code></a>: graphically displays a correlation matrix as a highly customizable heatmap, with correlation coefficiants and <em>P</em> values overlayed on the plot if desired<br /></li>
+<li><a href="http://jkunst.com/highcharter/"><code>highcharter</code></a>: displays most classic plot types as interactive plots<br /></li>
 </ul>
 
-<p>I am generally more interested in ensuring something is executable than maintaining the resulting product. However, I do like this blog format and hope to maintain this website as an entertaining forum!</p>
+<p>I hope some of these packages also make it onto your list of favourite R packages!</p>
 
     </section>
 
@@ -272,19 +273,19 @@
     
 <section class="share">
   <h4>Share this post</h4>
-  <a class="icon-twitter" style="font-size: 1.4em" href="https://twitter.com/share?text=On%20starting%20a%20blog&nbsp;-&nbsp;Classic%20thoughts%20from%20Anala&amp;url=https%3a%2f%2fanala-gossai.github.io%2fu_blog%2fon-starting-a-blog%2f"
+  <a class="icon-twitter" style="font-size: 1.4em" href="https://twitter.com/share?text=On%20my%20favourite%20R%20packages&nbsp;-&nbsp;Classic%20thoughts%20from%20Anala&amp;url=https%3a%2f%2fanala-gossai.github.io%2fu_blog%2fon-r-packages%2f"
       onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
       <span class="hidden">Twitter</span>
   </a>
-  <a class="icon-facebook" style="font-size: 1.4em" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fanala-gossai.github.io%2fu_blog%2fon-starting-a-blog%2f"
+  <a class="icon-facebook" style="font-size: 1.4em" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fanala-gossai.github.io%2fu_blog%2fon-r-packages%2f"
       onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
       <span class="hidden">Facebook</span>
   </a>
-  <a class="icon-pinterest" style="font-size: 1.4em" href="http://pinterest.com/pin/create/button/?url=https%3a%2f%2fanala-gossai.github.io%2fu_blog%2fon-starting-a-blog%2f&amp;description=On%20starting%20a%20blog"
+  <a class="icon-pinterest" style="font-size: 1.4em" href="http://pinterest.com/pin/create/button/?url=https%3a%2f%2fanala-gossai.github.io%2fu_blog%2fon-r-packages%2f&amp;description=On%20my%20favourite%20R%20packages"
       onclick="window.open(this.href, 'pinterest-share','width=580,height=296');return false;">
       <span class="hidden">Pinterest</span>
   </a>
-  <a class="icon-google-plus" style="font-size: 1.4em" href="https://plus.google.com/share?url=https%3a%2f%2fanala-gossai.github.io%2fu_blog%2fon-starting-a-blog%2f"
+  <a class="icon-google-plus" style="font-size: 1.4em" href="https://plus.google.com/share?url=https%3a%2f%2fanala-gossai.github.io%2fu_blog%2fon-r-packages%2f"
      onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
       <span class="hidden">Google+</span>
   </a>
@@ -306,13 +307,12 @@
 
   <aside class="read-next">
   
-      <a class="read-next-story" style="no-cover" href="https://anala-gossai.github.io/u_blog/on-r-packages/">
+  
+      <a class="read-next-story prev" style="no-cover" href="https://anala-gossai.github.io/u_blog/on-starting-a-blog/">
           <section class="post">
-              <h2>On my favourite R packages</h2>
-              
+              <h2>On starting a blog</h2>
           </section>
       </a>
-  
   
 </aside>
 
