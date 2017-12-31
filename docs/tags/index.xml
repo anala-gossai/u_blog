@@ -2,31 +2,49 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Thoughts from Anala</title>
-    <link>https://anala-gossai.github.io/u_blog/tags/</link>
+    <link>/u_blog/tags/</link>
     <description>Recent content in Tags on Thoughts from Anala</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2018</copyright>
     <lastBuildDate>Sun, 03 Dec 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://anala-gossai.github.io/u_blog/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/u_blog/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>General</title>
-      <link>https://anala-gossai.github.io/u_blog/tags/general/</link>
+      <link>/u_blog/tags/general/</link>
       <pubDate>Sun, 03 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://anala-gossai.github.io/u_blog/tags/general/</guid>
+      <guid>/u_blog/tags/general/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Plot</title>
+      <link>/u_blog/tags/plot/</link>
+      <pubDate>Sat, 30 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/u_blog/tags/plot/</guid>
       <description></description>
     </item>
     
     <item>
       <title>R</title>
-      <link>https://anala-gossai.github.io/u_blog/tags/r/</link>
-      <pubDate>Fri, 29 Dec 2017 00:00:00 +0000</pubDate>
+      <link>/u_blog/tags/r/</link>
+      <pubDate>Sat, 30 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://anala-gossai.github.io/u_blog/tags/r/</guid>
+      <guid>/u_blog/tags/r/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R Markdown</title>
+      <link>/u_blog/tags/r-markdown/</link>
+      <pubDate>Sat, 30 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/u_blog/tags/r-markdown/</guid>
       <description></description>
     </item>
     

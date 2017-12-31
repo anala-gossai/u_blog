@@ -3,57 +3,74 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://anala-gossai.github.io/u_blog/on-r-packages/</loc>
+    <loc>/u_blog/on-blogging-with-r/</loc>
+    <lastmod>2017-12-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/u_blog/on-r-packages/</loc>
     <lastmod>2017-12-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://anala-gossai.github.io/u_blog/about/</loc>
+    <loc>/u_blog/about/</loc>
     <lastmod>2017-12-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://anala-gossai.github.io/u_blog/on-starting-a-blog/</loc>
+    <loc>/u_blog/on-starting-a-blog/</loc>
     <lastmod>2017-12-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://anala-gossai.github.io/u_blog/contact/</loc>
+    <loc>/u_blog/contact/</loc>
     <lastmod>2017-12-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://anala-gossai.github.io/u_blog/categories/</loc>
+    <loc>/u_blog/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://anala-gossai.github.io/u_blog/tags/general/</loc>
+    <loc>/u_blog/tags/general/</loc>
     <lastmod>2017-12-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://anala-gossai.github.io/u_blog/post/</loc>
-    <lastmod>2017-12-29T00:00:00+00:00</lastmod>
+    <loc>/u_blog/tags/plot/</loc>
+    <lastmod>2017-12-30T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://anala-gossai.github.io/u_blog/tags/r/</loc>
-    <lastmod>2017-12-29T00:00:00+00:00</lastmod>
+    <loc>/u_blog/post/</loc>
+    <lastmod>2017-12-30T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://anala-gossai.github.io/u_blog/tags/</loc>
+    <loc>/u_blog/tags/r/</loc>
+    <lastmod>2017-12-30T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/u_blog/tags/r-markdown/</loc>
+    <lastmod>2017-12-30T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/u_blog/tags/</loc>
     <lastmod>2017-12-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://anala-gossai.github.io/u_blog/</loc>
-    <lastmod>2017-12-29T00:00:00+00:00</lastmod>
+    <loc>/u_blog/</loc>
+    <lastmod>2017-12-30T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
