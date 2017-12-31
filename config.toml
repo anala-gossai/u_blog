@@ -1,6 +1,6 @@
 baseURL = "https://anala-gossai.github.io/u_blog/"
 languageCode = "en-us"
-title = "Classic thoughts from Anala"
+title = "Thoughts from Anala"
 theme = "casper"
 publishDir = "docs"
 paginate = 5
