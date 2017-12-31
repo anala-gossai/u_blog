@@ -28,12 +28,6 @@
   </url>
   
   <url>
-    <loc>https://anala-gossai.github.io/u_blog/</loc>
-    <lastmod>2017-12-29T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://anala-gossai.github.io/u_blog/tags/general/</loc>
     <lastmod>2017-12-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -54,6 +48,12 @@
   <url>
     <loc>https://anala-gossai.github.io/u_blog/tags/</loc>
     <lastmod>2017-12-03T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://anala-gossai.github.io/u_blog/</loc>
+    <lastmod>2017-12-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
