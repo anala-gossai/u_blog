@@ -6,7 +6,7 @@ publishDir = "docs"
 paginate = 5
 DisqusShortname = "agossai"
 Copyright = "© 2018"
-canonifyurls = true
+canonifyURLs = true
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 [permalinks]
