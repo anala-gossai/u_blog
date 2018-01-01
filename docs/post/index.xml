@@ -2,32 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Thoughts from Anala</title>
-    <link>/u_blog/post/</link>
+    <link>https://anala-gossai.github.io/u_blog/post/</link>
     <description>Recent content in Posts on Thoughts from Anala</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2018</copyright>
     <lastBuildDate>Sat, 30 Dec 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/u_blog/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://anala-gossai.github.io/u_blog/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>On blogging with R</title>
-      <link>/u_blog/on-blogging-with-r/</link>
+      <link>https://anala-gossai.github.io/u_blog/on-blogging-with-r/</link>
       <pubDate>Sat, 30 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>/u_blog/on-blogging-with-r/</guid>
+      <guid>https://anala-gossai.github.io/u_blog/on-blogging-with-r/</guid>
       <description>As noted previously, I use R for school and work when doing statistical computing using biomedical data. I tend to prefer sharing nicely formatted HTMLs generated from analyses conducted in R using R Markdown. Therefore, I was excited to learn that it was now possible to integrate “knitted” HTML output from an R Markdown (.Rmd) file to my Hugo blog with the assistance of the new R package, blogdown.
 Quick start blogdown states that the “main [blog platform] we support in blogdown is Hugo”.</description>
     </item>
     
     <item>
       <title>On my favourite R packages</title>
-      <link>/u_blog/on-r-packages/</link>
+      <link>https://anala-gossai.github.io/u_blog/on-r-packages/</link>
       <pubDate>Fri, 29 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>/u_blog/on-r-packages/</guid>
+      <guid>https://anala-gossai.github.io/u_blog/on-r-packages/</guid>
       <description>R is the statistical programming language I have used for a number of years in school and work as a Quantitative Biomedical Scientist. One reason I have enjoyed using R (particularly over SAS, but comparably to Python) is the large number of packages available for download to enhance the scope of analyses.
 There are a set of packages I always load when starting an analysis:
  Everything in the tidyverse: the tidyverse includes packages that simplify data manipulation, data cleaning, data summarisation, and graphical representation of data.</description>
@@ -35,10 +35,10 @@ There are a set of packages I always load when starting an analysis:
     
     <item>
       <title>On starting a blog</title>
-      <link>/u_blog/on-starting-a-blog/</link>
+      <link>https://anala-gossai.github.io/u_blog/on-starting-a-blog/</link>
       <pubDate>Sun, 03 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>/u_blog/on-starting-a-blog/</guid>
+      <guid>https://anala-gossai.github.io/u_blog/on-starting-a-blog/</guid>
       <description>Having a blog as a way to learn new technical skills and build my personal brand was something I wanted to attempt. Therefore, I spent a weekend building this static website that could host simple markdown documents or HTML outputs.
 Although I have some familiarity with using Jekyll as a static site generator with GitHub Pages, I preferred the default aesthetics of Hugo with the Casper theme.
 I started following the Quick Start guide for building and deploying Hugo as a GitHub Pages website.</description>
