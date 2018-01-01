@@ -13,25 +13,25 @@ output:
     code_folding: hide
 ---
 
-As noted previously, I use [R](https://www.r-project.org/) for school and work when doing statistical computing. I tend to prefer sharing nicely formatted HTMLs generated from analyses conducted in R using [R Markdown](http://rmarkdown.rstudio.com/). I was excited to learn that it was now possible to integrate "knitted" HTML output from an [R Markdown](http://rmarkdown.rstudio.com/) (.Rmd) file to [my Hugo blog](https://anala-gossai.github.io/u_blog/) with the assistance of the new R package, [`blogdown`](https://blog.rstudio.com/2017/09/11/announcing-blogdown/). 
+As noted previously, I use [R](https://www.r-project.org/) for school and work when doing statistical computing using biomedical data. I tend to prefer sharing nicely formatted HTMLs generated from analyses conducted in R using [R Markdown](http://rmarkdown.rstudio.com/). Therefore, I was excited to learn that it was now possible to integrate "knitted" HTML output from an [R Markdown](http://rmarkdown.rstudio.com/) (.Rmd) file to [my Hugo blog](https://anala-gossai.github.io/u_blog/) with the assistance of the new R package, [`blogdown`](https://blog.rstudio.com/2017/09/11/announcing-blogdown/). 
 
 ### Quick start 
 
 `blogdown` states that the *"main [blog platform] we support in `blogdown` is Hugo"*. I had previously set up [Hugo](https://gohugo.io/) for building this website before learning of the compatibility with R Markdown through `blogdown`. Thus, after installing the `blogdown` package using `install.packages("blogdown")`, I did **not** need to further run `blogdown::new_site()` to generate a new site. 
 
-I then searched around for an example of an R Markdown file used in an active blog, and although I didn't find one that quite met my needs, I did find some useful internet posts on the topic of using R to generate blogposts [here](https://tclavelle.github.io/blog/blogdown_github/), [here](https://talesofr.wordpress.com/2017/08/18/starting-a-rmarkdown-blog-with-bookdown-hugo-github/), [here](https://github.com/rstudio/blogdown), and [here](https://robertmyles.github.io/2017/02/01/how-to-make-a-github-pages-blog-with-rstudio-and-hugo/).  
+I then searched around for an example of an R Markdown file used in an active Hugo blog. Although I didn't find an existing .Rmd template file that quite met my needs, I did find some useful internet posts on the topic of using R to generate blogposts [here](https://tclavelle.github.io/blog/blogdown_github/), [here](https://talesofr.wordpress.com/2017/08/18/starting-a-rmarkdown-blog-with-bookdown-hugo-github/), [here](https://github.com/rstudio/blogdown), and [here](https://robertmyles.github.io/2017/02/01/how-to-make-a-github-pages-blog-with-rstudio-and-hugo/).  
 
 After setting up an R Markdown file for this blog post, I rendered the blog using `blogdown::serve_site("~/Users/analagossai/u_blog/content/post/my_third_post.Rmd")` typed into an R command line or program window.
 
 #### Debugging 
 
-As usual, my main problems during setup was relative URLs. Namely, I was interested in displaying HTML widgets and had trouble finding them to render in my Hugo blog. 
+As usual, my main problems during setup were relative URLs. Namely, I was interested in displaying HTML widgets and had trouble finding them in the default Hugo folder structure to render in my Hugo blog. 
 
 See below for a short example of my first blog post generated with `blogdown` and R Markdown!  
 
 ### R Markdown
 
-This is an [R Markdown](<http://rmarkdown.rstudio.com) document published using Hugo. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. 
+This is an [R Markdown](<http://rmarkdown.rstudio.com) document published using Hugo. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>. 
 
 
 ```{r global_options, include=FALSE}
@@ -78,7 +78,7 @@ setwd("/Users/analagossai/u_blog/content/post")
 data(mtcars)
 ```
 
-You can embed an R code chunk like this:
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
 
 ```{r cars}
 
@@ -114,4 +114,3 @@ Location of script used to generate this report:
 ```{r, echo=FALSE, warning=FALSE, message=FALSE}
 getwd()
 ```
-

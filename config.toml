@@ -4,7 +4,6 @@ title = "Thoughts from Anala"
 theme = "casper"
 publishDir = "docs"
 paginate = 5
-DisqusShortname = "agossai"
 Copyright = "© 2018"
 canonifyURLs = true
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]

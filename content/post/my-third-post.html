@@ -15,21 +15,21 @@ output:
 
 
 
-<p>As noted previously, I use <a href="https://www.r-project.org/">R</a> for school and work when doing statistical computing. I tend to prefer sharing nicely formatted HTMLs generated from analyses conducted in R using <a href="http://rmarkdown.rstudio.com/">R Markdown</a>. I was excited to learn that it was now possible to integrate “knitted” HTML output from an <a href="http://rmarkdown.rstudio.com/">R Markdown</a> (.Rmd) file to <a href="https://anala-gossai.github.io/u_blog/">my Hugo blog</a> with the assistance of the new R package, <a href="https://blog.rstudio.com/2017/09/11/announcing-blogdown/"><code>blogdown</code></a>.</p>
+<p>As noted previously, I use <a href="https://www.r-project.org/">R</a> for school and work when doing statistical computing using biomedical data. I tend to prefer sharing nicely formatted HTMLs generated from analyses conducted in R using <a href="http://rmarkdown.rstudio.com/">R Markdown</a>. Therefore, I was excited to learn that it was now possible to integrate “knitted” HTML output from an <a href="http://rmarkdown.rstudio.com/">R Markdown</a> (.Rmd) file to <a href="https://anala-gossai.github.io/u_blog/">my Hugo blog</a> with the assistance of the new R package, <a href="https://blog.rstudio.com/2017/09/11/announcing-blogdown/"><code>blogdown</code></a>.</p>
 <div id="quick-start" class="section level3">
 <h3>Quick start</h3>
 <p><code>blogdown</code> states that the <em>“main [blog platform] we support in <code>blogdown</code> is Hugo”</em>. I had previously set up <a href="https://gohugo.io/">Hugo</a> for building this website before learning of the compatibility with R Markdown through <code>blogdown</code>. Thus, after installing the <code>blogdown</code> package using <code>install.packages(&quot;blogdown&quot;)</code>, I did <strong>not</strong> need to further run <code>blogdown::new_site()</code> to generate a new site.</p>
-<p>I then searched around for an example of an R Markdown file used in an active blog, and although I didn’t find one that quite met my needs, I did find some useful internet posts on the topic of using R to generate blogposts <a href="https://tclavelle.github.io/blog/blogdown_github/">here</a>, <a href="https://talesofr.wordpress.com/2017/08/18/starting-a-rmarkdown-blog-with-bookdown-hugo-github/">here</a>, <a href="https://github.com/rstudio/blogdown">here</a>, and <a href="https://robertmyles.github.io/2017/02/01/how-to-make-a-github-pages-blog-with-rstudio-and-hugo/">here</a>.</p>
+<p>I then searched around for an example of an R Markdown file used in an active Hugo blog. Although I didn’t find an existing .Rmd template file that quite met my needs, I did find some useful internet posts on the topic of using R to generate blogposts <a href="https://tclavelle.github.io/blog/blogdown_github/">here</a>, <a href="https://talesofr.wordpress.com/2017/08/18/starting-a-rmarkdown-blog-with-bookdown-hugo-github/">here</a>, <a href="https://github.com/rstudio/blogdown">here</a>, and <a href="https://robertmyles.github.io/2017/02/01/how-to-make-a-github-pages-blog-with-rstudio-and-hugo/">here</a>.</p>
 <p>After setting up an R Markdown file for this blog post, I rendered the blog using <code>blogdown::serve_site(&quot;~/Users/analagossai/u_blog/content/post/my_third_post.Rmd&quot;)</code> typed into an R command line or program window.</p>
 <div id="debugging" class="section level4">
 <h4>Debugging</h4>
-<p>As usual, my main problems during setup was relative URLs. Namely, I was interested in displaying HTML widgets and had trouble finding them to render in my Hugo blog.</p>
+<p>As usual, my main problems during setup were relative URLs. Namely, I was interested in displaying HTML widgets and had trouble finding them in the default Hugo folder structure to render in my Hugo blog.</p>
 <p>See below for a short example of my first blog post generated with <code>blogdown</code> and R Markdown!</p>
 </div>
 </div>
 <div id="r-markdown" class="section level3">
 <h3>R Markdown</h3>
-<p>This is an <a href="%3Chttp://rmarkdown.rstudio.com">R Markdown</a> document published using Hugo. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents.</p>
+<p>This is an <a href="#r-markdown">R Markdown</a>(&lt;<a href="http://rmarkdown.rstudio.com" class="uri">http://rmarkdown.rstudio.com</a>) document published using Hugo. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <a href="http://rmarkdown.rstudio.com" class="uri">http://rmarkdown.rstudio.com</a>.</p>
 <pre class="r"><code># source all functions available 
 # from: https://github.com/anala-gossai/fun_ctions
 sourceDir &lt;- function(path, 
@@ -52,7 +52,7 @@ sourceDir(&quot;/Users/analagossai/fun_ctions&quot;)
 setwd(&quot;/Users/analagossai/u_blog/content/post&quot;)</code></pre>
 <pre class="r"><code># get dataset provided by r
 data(mtcars)</code></pre>
-<p>You can embed an R code chunk like this:</p>
+<p>When you click the <strong>Knit</strong> button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:</p>
 <pre class="r"><code>mtcars %&gt;% 
     head() %&gt;% 
     knitr::kable()</code></pre>

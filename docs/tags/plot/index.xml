@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Plot on Thoughts from Anala</title>
-    <link>https://anala-gossai.github.io/u_blog/tags/plot/</link>
+    <link>/u_blog/tags/plot/</link>
     <description>Recent content in Plot on Thoughts from Anala</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2018</copyright>
     <lastBuildDate>Sat, 30 Dec 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://anala-gossai.github.io/u_blog/tags/plot/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/u_blog/tags/plot/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>On blogging with R</title>
-      <link>https://anala-gossai.github.io/u_blog/on-blogging-with-r/</link>
+      <link>/u_blog/on-blogging-with-r/</link>
       <pubDate>Sat, 30 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://anala-gossai.github.io/u_blog/on-blogging-with-r/</guid>
-      <description>As noted previously, I use R for school and work when doing statistical computing. I tend to prefer sharing nicely formatted HTMLs generated from analyses conducted in R using R Markdown. I was excited to learn that it was now possible to integrate “knitted” HTML output from an R Markdown (.Rmd) file to my Hugo blog with the assistance of the new R package, blogdown.
+      <guid>/u_blog/on-blogging-with-r/</guid>
+      <description>As noted previously, I use R for school and work when doing statistical computing using biomedical data. I tend to prefer sharing nicely formatted HTMLs generated from analyses conducted in R using R Markdown. Therefore, I was excited to learn that it was now possible to integrate “knitted” HTML output from an R Markdown (.Rmd) file to my Hugo blog with the assistance of the new R package, blogdown.
 Quick start blogdown states that the “main [blog platform] we support in blogdown is Hugo”.</description>
     </item>
     
